@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "110319198132",
+    "firebase_url": "https://selfdestructingmessageapp.firebaseio.com",
+    "project_id": "selfdestructingmessageapp",
+    "storage_bucket": "selfdestructingmessageapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110319198132:android:408cc1d1854787e3bedce1",
+        "android_client_info": {
+          "package_name": "com.techcom.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110319198132-f96b9l48t4virdcoqe8a4dp6lfllito6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techcom.todolist",
+            "certificate_hash": "055acc5d3757713693431959fad4f52cb726cde3"
+          }
+        },
+        {
+          "client_id": "110319198132-tkr20mm12vmfr4sfaqt7t9tu51s06f4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQV5tSlDMneiFF4W-dZ1hgklEaYYazbFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110319198132-tkr20mm12vmfr4sfaqt7t9tu51s06f4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

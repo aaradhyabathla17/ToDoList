@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lis_to_do_list"
+        android:dividerHeight="1px"
+        android:divider="@color/deviderColor"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/touch_interceptor"
+        android:background="#CC000000"
+        android:visibility="gone"/>
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="24dp"
+            android:paddingEnd="16dp"
+            android:padding="8dp"
+            android:id="@+id/layout_listItemAdd">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_add_item"
+                android:layout_weight="1"/>
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_item"
+                android:text="ADD"
+                android:layout_marginStart="16dp"
+                app:bootstrapBrand="success"
+                app:bootstrapSize="lg"
+                app:buttonMode="regular"
+                app:fontAwesomeIcon="fa_plus"
+                app:roundedCorners="true"
+                app:showOutline="false"
+                />
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="16dp"
+    android:src="@drawable/ic_add_black_24dp"
+android:id="@+id/fab"
+    app:fabCustomSize="48dp"
+    />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
